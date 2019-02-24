@@ -26,5 +26,4 @@ output "ami" {
 
 The `output` keyword will show data from resources back to the user after a `apply` or `refresh` command. Outputs can also be queried: `terraform output ip`.
 
-
-
+Instead of reinventing the wheel for common and complex infrastructure setups, we can leverage from community `modules` stored at the Terraform Registry. To use them, we just place the module in our `.tf` file and run `terraform init` to install these dependencies. After that, creating the infrastructure is just like before: `terraform apply`.
