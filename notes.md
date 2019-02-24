@@ -24,5 +24,7 @@ output "ami" {
 }
 ```
 
+The `output` keyword will show data from resources back to the user after a `apply` or `refresh` command. Outputs can also be queried: `terraform output ip`.
+
 
 
